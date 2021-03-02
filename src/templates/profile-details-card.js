@@ -3,7 +3,7 @@ const d3 = require("d3");
 const moment = require("moment");
 
 function createDetailCard(title, userDetails, contributionsData, theme) {
-  let card = new Card(title, 700, 200, theme);
+  let card = new Card(title, 500, 200, theme);
   let svg = card.getSVG();
 
   //draw icon
